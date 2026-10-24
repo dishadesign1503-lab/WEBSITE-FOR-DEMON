@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The House Outlives Its Creator</title>
+  <meta name="description" content="A house that keeps running after its people are gone, and the being buried beneath its plan. An introduction to the game.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230a0a0a'/%3E%3Ccircle cx='8' cy='8' r='3' fill='%23ef5b3f'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="plan-data.js" defer></script>
+  <script src="plan.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#s01">Skip to content</a>
+
+  <header class="masthead">
+    <span class="mono">The House Outlives Its Creator</span>
+  </header>
+
+  <nav class="pager" aria-label="Sections">
+    <a href="#s01" aria-label="01 — Theme, constraint, daemon"><span>01</span></a>
+    <a href="#s02" aria-label="02 — The being beneath the house"><span>02</span></a>
+    <a href="#s03" aria-label="03 — Buried beneath the house"><span>03</span></a>
+    <a href="#s04" aria-label="04 — The house was left behind"><span>04</span></a>
+    <a href="#s05" aria-label="05 — One sense, one trigger"><span>05</span></a>
+    <a href="#s06" aria-label="06 — When the daemon dreams"><span>06</span></a>
+    <a href="#s07" aria-label="07 — How to move through the house"><span>07</span></a>
+    <a href="#s08" aria-label="08 — Enter the house"><span>08</span></a>
+  </nav>
+
+  <main>
+    <!-- 01 ─ THEME / CONSTRAINT / DAEMON ─────────────────────────── -->
+    <section id="s01" class="section s01" aria-labelledby="s01-title">
+      <p class="label" data-reveal><span>01</span> Theme · Constraint · Daemon</p>
+      <h1 id="s01-title" class="display" data-reveal>The House Outlives<br>Its Creator</h1>
+
+      <div class="trio">
+        <article class="trio__item" data-reveal style="--d:.05s">
+          <p class="kicker">Theme</p>
+          <h2 class="statement">Some systems outlive the people who created them.</h2>
+          <p class="aside">A city, a building, a machine. Its people disappear; its processes continue.</p>
+          <figure class="trio__fig frame" data-progress>
+            <img src="assets/img/s1-city.jpg" width="650" height="491" alt="A dark, abandoned industrial building with pipes overhead.">
+            <svg class="lights" viewBox="0 0 650 491" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <circle cx="548" cy="232" r="5" style="--t:.22"/>
+              <circle cx="590" cy="232" r="5" style="--t:.31"/>
+              <circle cx="548" cy="290" r="5" style="--t:.37"/>
+              <circle cx="590" cy="290" r="5" style="--t:.26"/>
+              <circle cx="462" cy="270" r="4" style="--t:.34"/>
+              <circle cx="96" cy="140" r="4" style="--t:.41"/>
+              <circle cx="96" cy="215" r="4" style="--t:.24"/>
+              <circle cx="300" cy="300" r="4" style="--t:.44"/>
+              <circle class="survivor" cx="391" cy="268" r="6"/>
+            </svg>
+          </figure>
+        </article>
+
+        <article class="trio__item" data-reveal style="--d:.15s">
+          <p class="kicker">Constraint</p>
+          <h2 class="statement">One sense. No sight.</h2>
+          <p class="aside">Vaastu Purusha can hear, but cannot see. Hearing is his only sensory channel.</p>
+          <figure class="trio__fig frame hearing">
+            <button class="hearing__btn" type="button" aria-label="Send a sound towards him">
+              <img src="assets/img/s1-hearing.jpg" width="515" height="545" alt="">
+              <svg class="wave" viewBox="0 0 515 545" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                <path class="wave__line" d="M0 172 q8 -14 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+                <path class="wave__pulse" pathLength="1" d="M0 172 q8 -14 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+                <circle class="ear" cx="210" cy="172" r="10"/>
+              </svg>
+            </button>
+            <figcaption class="hint mono">Send a sound</figcaption>
+          </figure>
+        </article>
+
+        <article class="trio__item" data-reveal style="--d:.25s">
+          <p class="kicker">Daemon</p>
+          <h2 class="statement">Vaastu Purusha. Buried beneath the plan.</h2>
+          <p class="aside" aria-hidden="true">&nbsp;</p>
+          <figure class="trio__fig frame settle" data-progress>
+            <svg class="plan" data-plan data-body viewBox="0 0.2 9 12.8" role="img" aria-label="A floor plan settling over a faint figure lying beneath it."></svg>
+          </figure>
+        </article>
+      </div>
+    </section>
+
+    <!-- 02 ─ THE BEING BENEATH THE HOUSE ────────────────────────── -->
+    <section id="s02" class="section s02" aria-labelledby="s02-title">
+      <p class="label" data-reveal><span>02</span> The being beneath the house</p>
+      <h2 id="s02-title" class="display" data-reveal>Too powerful to be<br><em>left unbound.</em></h2>
+
+      <div class="story" data-steps="5">
+        <div class="story__pin">
+          <div class="story__visual myth">
+            <figure class="layer myth__pinned">
+              <img src="assets/img/s3-pinned.jpg" width="540" height="615" alt="Vaastu Purusha in mid-movement, gods drawn in red line pressing him down.">
+            </figure>
+            <figure class="layer myth__mandala">
+              <img src="assets/img/s3-mandala.jpg" width="290" height="295" alt="Line drawing of Vaastu Purusha folded inside a square grid.">
+              <svg class="mandala-lines" viewBox="0 0 290 295" aria-hidden="true"></svg>
+            </figure>
+            <figure class="layer myth__plan">
+              <svg class="plan" data-plan viewBox="0 0.2 9 12.8" role="img" aria-label="A house plan drawn on the same kind of grid."></svg>
+            </figure>
+          </div>
+
+          <div class="story__text">
+            <ol class="lines">
+              <li data-at="0">He was no ordinary being.</li>
+              <li data-at="1">He grew so powerful that the gods had to bring him down.</li>
+              <li data-at="2">They pinned him against the earth, holding his body in place.</li>
+              <li data-at="3" class="lines__key">His body became a map for the organisation of space.</li>
+            </ol>
+            <div class="mandala-note" data-at="4">
+              <p class="kicker">Vaastu Purusha Mandala</p>
+              <p>In traditional Indian architecture, the mandala gives a building its spatial framework. Many Indian homes are still designed with reference to Vaastu principles.</p>
+              <img src="assets/img/s3-house.jpg" width="227" height="160" alt="A courtyard house with a tiled roof among trees.">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 ─ BURIED BENEATH THE HOUSE ───────────────────────────── -->
+    <section id="s03" class="section s03" aria-labelledby="s03-title">
+      <p class="label" data-reveal><span>03</span> Buried beneath the house</p>
+      <h2 id="s03-title" class="display" data-reveal>What if the being<br>beneath the plan<br><em>never left?</em></h2>
+
+      <div class="story" data-steps="5">
+        <div class="story__pin">
+          <div class="story__visual buried">
+            <div class="stack">
+              <img class="stack__plan" src="assets/img/s4-plan.jpg" width="395" height="200" alt="Isometric house plan with low walls.">
+              <img class="stack__daemon" src="assets/img/s4-daemon.jpg" width="385" height="215" alt="Vaastu Purusha lying face down on a red grid, beneath the house.">
+              <span class="stack__ember" aria-hidden="true"></span>
+              <span class="stack__tag stack__tag--plan mono">House plan</span>
+              <span class="stack__tag stack__tag--daemon mono">Vaastu Purusha</span>
+            </div>
+          </div>
+          <div class="story__text">
+            <ol class="lines">
+              <li data-at="0">I took Vaastu Purusha out of the diagram and placed him beneath the house itself.</li>
+              <li data-at="2">Not as a symbol on a page, but as a daemon within the architectural system.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 ─ THE HOUSE WAS LEFT BEHIND ──────────────────────────── -->
+    <section id="s04" class="section s04" aria-labelledby="s04-title">
+      <p class="label" data-reveal><span>04</span> Left behind</p>
+      <h2 id="s04-title" class="display" data-reveal>The people left.<br><em>The system didn’t.</em></h2>
+
+      <div class="story" data-steps="7" data-weights="1,1,1,1,1.6,2.2,1.6">
+        <div class="story__pin">
+          <div class="story__visual empty">
+            <figure class="layer empty__room">
+              <img src="assets/img/s4-abandoned.jpg" width="475" height="325" alt="An empty, overgrown house seen from above.">
+              <span class="indicator" aria-hidden="true"></span>
+            </figure>
+            <figure class="layer empty__plan">
+              <svg class="plan" data-plan viewBox="0 0.2 9 12.8" role="img" aria-label="The floor plan, changing by itself."></svg>
+            </figure>
+          </div>
+          <div class="story__text">
+            <ol class="lines lines--short">
+              <li data-at="0">No inhabitants.</li>
+              <li data-at="1">No maintenance.</li>
+              <li data-at="2">No one left to give instructions.</li>
+              <li data-at="3" class="lines__key">And yet, something continues to operate.</li>
+            </ol>
+          </div>
+          <div class="questions">
+            <p class="question" data-at="5">If no one is there, who is the house still responding to?</p>
+            <p class="question question--second" data-at="6">And what happens when the being beneath it changes?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 ─ ONE SENSE. ONE TRIGGER. ────────────────────────────── -->
+    <section id="s05" class="section s05" aria-labelledby="s05-title">
+      <p class="label" data-reveal><span>05</span> How the game works</p>
+      <h2 id="s05-title" class="display" data-reveal>One sense. One trigger.<br><em>An autonomous house.</em></h2>
+
+      <ol class="system" data-reveal>
+        <li class="stage" data-stage="1">
+          <button class="stage__btn" aria-expanded="false" aria-controls="stage-1">
+            <span class="stage__num mono">01</span>
+            <span class="stage__name">Voice</span>
+            <span class="stage__fig fx-voice">
+              <span class="fig-inner feather">
+                <img class="base" src="assets/img/s2-voice.jpg" width="560" height="250" alt="">
+                <img class="lit" src="assets/img/s2-voice.jpg" width="560" height="250" alt="">
+              </span>
+            </span>
+            <span class="stage__cta mono"><span class="play" aria-hidden="true"></span>Speak to him</span>
+          </button>
+          <p class="stage__text" id="stage-1"><q>You are a boat.</q> A human voice enters through the microphone.</p>
+        </li>
+
+        <li class="link" aria-hidden="true"><span class="link__pulse"></span></li>
+
+        <li class="stage" data-stage="2">
+          <button class="stage__btn" aria-expanded="false" aria-controls="stage-2">
+            <span class="stage__num mono">02</span>
+            <span class="stage__name">Vaastu Purusha</span>
+            <span class="stage__fig fx-daemon">
+              <span class="fig-inner feather">
+                <img class="base" src="assets/img/s2-daemon.jpg" width="300" height="310" alt="">
+                <span class="ember" aria-hidden="true"></span>
+              </span>
+            </span>
+          </button>
+          <p class="stage__text" id="stage-2">He hears it and is hypnotised into an altered state: <q>I am a boat.</q></p>
+        </li>
+
+        <li class="link" aria-hidden="true"><span class="link__pulse"></span></li>
+
+        <li class="stage" data-stage="3">
+          <button class="stage__btn" aria-expanded="false" aria-controls="stage-3">
+            <span class="stage__num mono">03</span>
+            <span class="stage__name">House</span>
+            <span class="stage__fig fx-house">
+              <svg class="plan plan--small" data-plan viewBox="0 0.2 9 12.8" aria-hidden="true"></svg>
+            </span>
+          </button>
+          <p class="stage__text" id="stage-3">The house reacts to his altered state and reorganises itself around his new posture.</p>
+        </li>
+      </ol>
+
+      <p class="note mono" data-reveal>The voice triggers the change. It never moves a wall. <span class="muted">· Illustration only: no microphone is used on this page.</span></p>
+    </section>
+
+    <!-- 06 ─ WHEN THE DAEMON DREAMS ─────────────────────────────── -->
+    <section id="s06" class="section s06" aria-labelledby="s06-title">
+      <p class="label" data-reveal><span>06</span> When the daemon dreams</p>
+      <h2 id="s06-title" class="display" data-reveal>But the house does not<br><em>wait for a voice.</em></h2>
+
+      <div class="dream" data-reveal data-phase="idle">
+        <figure class="dream__visual">
+          <svg class="plan" data-plan data-body data-marks viewBox="0 0.2 9 12.8" role="img" aria-label="Dream demonstration: the floor plan above the sleeping figure."></svg>
+          <span class="dream__fog" aria-hidden="true"></span>
+          <span class="chip mono" aria-hidden="true"><span class="chip__dot"></span>Dream state</span>
+        </figure>
+
+        <div class="dream__text">
+          <ol class="phases">
+            <li data-phase="asleep">Asleep.</li>
+            <li data-phase="dreaming">Dreaming.</li>
+            <li data-phase="moving">The house moves.</li>
+            <li data-phase="anchor" class="phases__small">A green anchor appears. Reach it, and the house settles.</li>
+          </ol>
+          <p class="dream__result" aria-live="polite"></p>
+          <p class="dream__close">Even without a command, the system continues.</p>
+          <button class="btn btn--ember dream__play" type="button"><span class="pulse-dot" aria-hidden="true"></span>Observe the dream</button>
+
+          <dl class="compare">
+            <div>
+              <dt class="mono"><svg viewBox="0 0 40 16" aria-hidden="true"><path d="M0 8h6l2-6 3 12 3-10 3 8 2-4h21"/></svg>Hypnosis</dt>
+              <dd>A human voice triggers his altered state.</dd>
+            </div>
+            <div>
+              <dt class="mono"><span class="slow-dot" aria-hidden="true"></span>Dreaming</dt>
+              <dd>His own mind begins the dream. No one triggers it.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 ─ HOW TO MOVE THROUGH THE HOUSE ──────────────────────── -->
+    <section id="s07" class="section s07" aria-labelledby="s07-title">
+      <p class="label" data-reveal><span>07</span> Controls</p>
+      <h2 id="s07-title" class="display" data-reveal>How to move<br>through the house</h2>
+      <p class="lead" data-reveal>You are not the daemon. You roll a small glowing ball through the plan above him.</p>
+
+      <div class="devices">
+        <article class="device" data-reveal>
+          <svg class="device__art laptop" viewBox="0 0 240 170" aria-hidden="true">
+            <rect class="dev-outline" x="30" y="10" width="180" height="112" rx="6"/>
+            <path class="dev-outline" d="M10 132h220l-10 14H20z"/>
+            <g class="mini-plan" transform="translate(70 18)"><rect width="100" height="96"/><path d="M0 34h46M62 34h38M46 34v62M70 34v30M70 80v16"/></g>
+            <circle class="runner runner--keys" cx="0" cy="0" r="4.5"/>
+            <g transform="translate(96 152)">
+              <rect class="key key--up" x="17" y="-13" width="14" height="9" rx="2"/>
+              <rect class="key key--left" x="0" y="-2" width="14" height="9" rx="2"/>
+              <rect class="key key--down" x="17" y="-2" width="14" height="9" rx="2"/>
+              <rect class="key key--right" x="34" y="-2" width="14" height="9" rx="2"/>
+            </g>
+          </svg>
+          <h3 class="kicker">Laptop · roll with the keys</h3>
+          <p>Arrow keys or W A S D. No keys? Drag with the mouse.</p>
+        </article>
+
+        <article class="device" data-reveal style="--d:.12s">
+          <svg class="device__art phone" viewBox="0 0 240 170" aria-hidden="true">
+            <g class="phone__body">
+              <rect class="dev-outline" x="86" y="8" width="68" height="140" rx="10"/>
+              <g class="mini-plan" transform="translate(94 26)"><rect width="52" height="100"/><path d="M0 36h22M32 36h20M22 36v64M36 60v40"/></g>
+              <circle class="runner runner--tilt" cx="120" cy="76" r="4"/>
+            </g>
+          </svg>
+          <h3 class="kicker">Phone · tilt to roll</h3>
+          <p>Tilt your phone. The ball rolls the way you lean it.</p>
+          <button class="btn tilt-try" type="button">Try it with this phone</button>
+          <p class="tilt-status mono" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 08 ─ ENTER THE HOUSE ────────────────────────────────────── -->
+    <section id="s08" class="section s08" aria-labelledby="s08-title">
+      <figure class="final__plan" aria-hidden="true">
+        <svg class="plan" data-plan data-body viewBox="0 0.2 9 12.8"></svg>
+      </figure>
+      <div class="final__text" data-reveal>
+        <h2 id="s08-title" class="display">The House Outlives<br>Its Creator.</h2>
+        <p class="lead">Enter the house. Find out what continues.</p>
+        <a class="btn btn--ember btn--big" href="https://dishadesign1503-lab.github.io/The-House-Outlives-Its-Creator/">Enter the house <span aria-hidden="true">→</span></a>
+        <p class="mono muted small-print">Best on a phone. The microphone is only asked for when you hypnotise him.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer mono">
+    <span>The House Outlives Its Creator</span>
+    <a href="#s01">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>
